@@ -277,14 +277,4 @@ public class AmbiguitiesProcessingTest {
 
     }
 
-    /**
-     * Test of processEachInputElement method, of class AmbiguitiesProcessing.
-     */
-   
-    /**
-     * Test of extractPossibleCombinations method, of class
-     * AmbiguitiesProcessing.
-     */
-  
-
 }
