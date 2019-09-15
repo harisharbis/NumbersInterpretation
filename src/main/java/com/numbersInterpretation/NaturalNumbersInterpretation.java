@@ -37,13 +37,21 @@ public class NaturalNumbersInterpretation {
             } else {
                 continue;
             }
-            
+            //at this point it is confirmed that the user gave a valid greek phone number without 4 digits in a row and without characters
+            //create an instance to access the methods of AmbiguitiesProcessing class
             AmbiguitiesProcessing ambiguitiesObject = new AmbiguitiesProcessing();
+            //On this point the program will analyze each element of the String[] that the user gave as input and 
+            //store the result of each element analysis on a List<String> and then store each List on another List in order
+            // to extract all the different combinations in the next step
             List<List<String>> combinationStorage = ambiguitiesObject.processEachInputElement(formatinput);
+            //On this point the program extracts every possible different combination using the Guava Library cartesianProduct method 
             List<List<String>> combinationsAfterAmbiguities = ambiguitiesObject.extractPossibleCombinations(combinationStorage);
+           //will concat the results of all the possible combinations in order to print them in the next step
             List<String> finalList = Output.concatElementsFromEachList(combinationsAfterAmbiguities);
+            //final output of the program ,will print all the different interpretations of the given input
             System.out.println("The number you typed can be analyzed as: ");
             Output.printVariousPossibleCombinations(finalList);
+            //swap the boolean variable in order for the program to exit
             flag = true;
         }
     }
