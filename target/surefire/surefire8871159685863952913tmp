@@ -1,0 +1,12 @@
+#surefire
+#Sun Sep 15 17:49:24 EEST 2019
+jpda.address=60769
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+file.encoding=UTF-8
+jpda.listen=true
+forkMode=once
+user.dir=C\:\\Users\\Haris\\Documents\\NetBeansProjects\\NumbersInterpretation
+localRepository=C\:\\Users\\Haris\\.m2\\repository
+test=inputProcess.InputValidationTest\#testGetUserInput
+basedir=C\:\\Users\\Haris\\Documents\\NetBeansProjects\\NumbersInterpretation
+maven.surefire.debug=-Xdebug -Xrunjdwp\:transport\=dt_socket,server\=n,address\=60769

@@ -1,0 +1,8 @@
+#surefire
+#Sun Sep 15 17:33:34 EEST 2019
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=C\:\\Users\\Haris\\Documents\\NetBeansProjects\\NumbersInterpretation
+file.encoding=UTF-8
+localRepository=C\:\\Users\\Haris\\.m2\\repository
+basedir=C\:\\Users\\Haris\\Documents\\NetBeansProjects\\NumbersInterpretation
+test=inputProcess.InputValidationTest
